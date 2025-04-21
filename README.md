@@ -6,8 +6,9 @@ Trabalho de pesquisa sobre arquitetura de dados utilizando Apache Spark com Delt
 Projeto python iniciado com [UV](https://github.com/astral-sh/uv).
 
 ### Requisitos:
-- Python 3.12+
+- Python 3.11.8
 - [UV](https://github.com/astral-sh/uv)
+- [Jar do Delta Core](https://repo1.maven.org/maven2/io/delta/delta-core_2.12/2.4.0/delta-core_2.12-2.4.0.jar) 
 - Navegador web para visualizar JupyterLab e MkDocs
 
 ### Comandos:
