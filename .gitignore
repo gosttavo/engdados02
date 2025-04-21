@@ -172,3 +172,15 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Spark
+spark-warehouse/
+derby.log
+
+# PySpark / Delta / Iceberg (se aplicável)
+*.crc
+*.log
+*.tmp
