@@ -8,7 +8,6 @@ Projeto python iniciado com [UV](https://github.com/astral-sh/uv).
 ### Requisitos:
 - Python 3.11.8
 - [UV](https://github.com/astral-sh/uv)
-- [Jar do Delta Core](https://repo1.maven.org/maven2/io/delta/delta-core_2.12/2.4.0/delta-core_2.12-2.4.0.jar) 
 - Navegador web para visualizar JupyterLab e MkDocs
 
 ### Comandos:
@@ -16,7 +15,7 @@ Para iniciar o setup do projeto, execute:
 
 ```
 uv init
-uv venv
+uv venv --python 3.11.8
 source .venv/bin/activate
 uv pip install -r requirements.txt
 ```
@@ -39,19 +38,28 @@ Acesse pelo navegador em: http://127.0.0.1:8000 (http://localhost)
 ### Estrutura do projeto:
 ```
 .
-├── data/                  # Arquivos de dados utilizados no projeto (ALTERAR DEPOIS)
-├── docs/                  # Páginas de documentação para o MKDocs (ALTERAR DEPOIS)
+├── data/                  # Arquivos de dados utilizados no projeto
+│   ├── apolice.csv
+│   ├── carro.csv
+│   ├── cliente.csv
+│   ├── sinistro.csv
+|   └── scripts.sql
+├── docs/                  # Páginas de documentação para o MKDocs
 │   ├── index.md
 │   ├── delta.md
 │   └── iceberg.md
-├── notebooks/             # Notebooks Jupyter (ALTERAR DEPOIS)
-│   ├── delta_lake.ipynb
-│   └── iceberg.ipynb
-├── src/                   # Código fonte do projeto (ALTERAR DEPOIS)
-├── requirements.txt       # Dependências congeladas
-├── mkdocs.yml             # Configuração do site/documentação
+├── notebooks/             # Notebooks Jupyter
+│   ├── delta_lake.ipynb   # Notebook com operações em Delta Lake
+│   └── iceberg.ipynb      # Notebook com operações em Iceberg
+├── src/
+|   └── scripts.sql
+├── .gitignore
+├── .python-version
 ├── main.py/               # Arquivo principal (ALTERAR DEPOIS)
-├── README.md 
+├── mkdocs.yml             # Configuração do site/documentação
+├── README.md
+├── requirements.txt       # Dependências congeladas
+├── uv.lock
 ```
 
 ### Equipe:
