@@ -10,6 +10,10 @@ Projeto python iniciado com [UV](https://github.com/astral-sh/uv).
 - [UV](https://github.com/astral-sh/uv)
 - Navegador web para visualizar JupyterLab e MkDocs
 
+### Modelagem do projeto:
+[Diagrama ER](https://raw.githubusercontent.com/gosttavo/engdados02/blob/main/assets/diagram.jpeg)
+<img src="https://raw.githubusercontent.com/gosttavo/engdados02/blob/main/assets/diagram.jpeg">
+
 ### Comandos:
 Para iniciar o setup do projeto, execute:
 
