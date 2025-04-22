@@ -1,7 +1,7 @@
 # Projeto Apache Spark com Delta Lake e Apache Iceberg
 
 ### Sobre o projeto:
-Trabalho de pesquisa sobre arquitetura de dados utilizando Apache Spark com Delta Lake e Apache Iceberg.
+Trabalho de engenharia de dados utilizando Apache Spark com Delta Lake e Apache Iceberg.
 
 Projeto python iniciado com [UV](https://github.com/astral-sh/uv).
 
