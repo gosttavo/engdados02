@@ -25,8 +25,8 @@ uv pip install -r requirements.txt
 
 ### Notebooks:
 Os notebooks estão na pasta **notebooks/**
-* delta_lake.ipynb – demonstração de leitura, escrita, INSERT, UPDATE e DELETE com Delta Lake. (ALTERAR DEPOIS)
-* iceberg.ipynb – exemplo semelhante utilizando Apache Iceberg. (ALTERAR DEPOIS)
+* delta_lake.ipynb – demonstração de leitura, escrita, INSERT, UPDATE e DELETE com Delta Lake.
+* iceberg.ipynb – exemplo semelhante utilizando Apache Iceberg.
 ```
 uv run jupyter lab
 ``` 
